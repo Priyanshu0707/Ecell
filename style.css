@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Upper block */
+#main{
+    position: relative;
+    background-color: #2C3333;
+    text-align: center;
+    height: 800px;
+    color: #F5F2E7;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+#about{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    
+}
+.moon{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    width: 20rem;
+    border-radius: 50px;
+}
+.star1{
+    position: absolute;
+    width:8rem ;
+    left: 50px;
+    top:200px;
+}
+.star2{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    width:8rem ;
+}
+.star3{
+    position: absolute;
+    top: 50px;
+    right: 700px;
+    width:8rem ;
+}
+
+/* Middle Block */
+#about_me{
+    background-color: #395B64;
+    text-align: center;
+    color: #F5F2E7;
+}
+img{
+    display: inline-block;
+    margin: 20px;
+}
+.profile_photo{
+    border: 8px dashed #F5F2E7;
+    border-radius: 108px;
+}
+hr{
+    margin: 20px 0;
+    background-color: #395B64;
+    color: #395B64;
+}
+#java-script_image{
+    size: 20rem;
+}
+#c_image{
+    size: 20rem;
+}
+.skills{
+    width: 10rem;
+}
+
+
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+}
+a{
+    display: inline-block;
+    color: aliceblue;
+    margin: 5px;
+}
+.bottom-container{
+    background-color: #395B64;
+    text-align: center;
+}
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.social-media{
+    width: 2rem;
+}
+.btn{
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -moz-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -ms-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -o-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: linear-gradient(to bottom, #66BFBF, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #266287;
+    background-image: -webkit-linear-gradient(top, #266287, #3498db);
+    background-image: -moz-linear-gradient(top, #266287, #3498db);
+    background-image: -ms-linear-gradient(top, #266287, #3498db);
+    background-image: -o-linear-gradient(top, #266287, #3498db);
+    background-image: linear-gradient(to bottom, #266287, #3498db);
+    text-decoration: none;
+}
